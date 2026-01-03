@@ -5,21 +5,21 @@
 class Suve < Formula
   desc "Git-like CLI for AWS Parameter Store and Secrets Manager"
   homepage "https://github.com/mpyw/suve"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/mpyw/suve/releases/download/v0.2.0/suve_0.2.0_darwin_amd64.tar.gz"
-      sha256 "fb41a82a7dc0bf588376171c1dd6ab844d14eea8a41c791a94327fbf52dc665c"
+      url "https://github.com/mpyw/suve/releases/download/v0.3.0/suve_0.3.0_darwin_amd64.tar.gz"
+      sha256 "4123877cad3fdf4c9287ee8ba1112d0fb8f1c30eac1d33cf2285c669c0974673"
 
       def install
         bin.install "suve"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/mpyw/suve/releases/download/v0.2.0/suve_0.2.0_darwin_arm64.tar.gz"
-      sha256 "dcc01938bcd378657299af54f61134f43970c96acebd1715572fe8392b84f4d8"
+      url "https://github.com/mpyw/suve/releases/download/v0.3.0/suve_0.3.0_darwin_arm64.tar.gz"
+      sha256 "5845cceb63b47de58c8ca06f60d4591e77a92c08d180a981e7f43e030e67b494"
 
       def install
         bin.install "suve"
@@ -29,15 +29,15 @@ class Suve < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mpyw/suve/releases/download/v0.2.0/suve_0.2.0_linux_amd64.tar.gz"
-      sha256 "23c4b84df9e5b03c5d6db68bdf9d07891c6148f9a13ff396b65359ec3a2abd2c"
+      url "https://github.com/mpyw/suve/releases/download/v0.3.0/suve_0.3.0_linux_amd64.tar.gz"
+      sha256 "11dcb5661e25e651248157106fae1b11dba027f3b6768ffedb66ceb1c69b0c4d"
       def install
         bin.install "suve"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mpyw/suve/releases/download/v0.2.0/suve_0.2.0_linux_arm64.tar.gz"
-      sha256 "f9f8a9f51c24dd437b67b1c3a4c62ab9da946c91e6e2c65dd0820849589db0d6"
+      url "https://github.com/mpyw/suve/releases/download/v0.3.0/suve_0.3.0_linux_arm64.tar.gz"
+      sha256 "dd27835c080fa3052fcd7f621cfbbadcb03314ac87cf97d268116d889d7d864e"
       def install
         bin.install "suve"
       end
