@@ -2,27 +2,27 @@ class Suve < Formula
   desc "Git-like CLI/GUI for AWS Parameter Store and Secrets Manager"
   homepage "https://github.com/mpyw/suve"
   license "MIT"
-  version "0.6.1"
+  version "0.6.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/mpyw/suve/releases/download/v0.6.1/suve_0.6.1_darwin_arm64.tar.gz"
-      sha256 "a9a0916480a7608f54ddc1b88bed6f89108577336974eb30311befc128074581"
+      url "https://github.com/mpyw/suve/releases/download/v0.6.3/suve_0.6.3_darwin_arm64.tar.gz"
+      sha256 "2f5ec36c0f2effe6a1fa0de3efd87c737ac69d43d139af32c39bf9e48922dbcd"
     end
     on_intel do
-      url "https://github.com/mpyw/suve/releases/download/v0.6.1/suve_0.6.1_darwin_amd64.tar.gz"
-      sha256 "7c05b2bce4e8ef2ebcd28316ba635c07383cea4fde723592e6fabf1be7742840"
+      url "https://github.com/mpyw/suve/releases/download/v0.6.3/suve_0.6.3_darwin_amd64.tar.gz"
+      sha256 "2c302c0896690394b3855f67928bd01538dd21ff333decb198d7bd48eed5422c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mpyw/suve/releases/download/v0.6.1/suve_0.6.1_linux_arm64.tar.gz"
-      sha256 "b99da49b640ca4638750d3af8beb5d164883b88ff19b02df5a2bd97054366dea"
+      url "https://github.com/mpyw/suve/releases/download/v0.6.3/suve_0.6.3_linux_arm64.tar.gz"
+      sha256 "176632664b8df59cd48f6e4b3461391497caffade3e94b208fed2d86cc56b54c"
     end
     on_intel do
-      url "https://github.com/mpyw/suve/releases/download/v0.6.1/suve_0.6.1_linux_amd64.tar.gz"
-      sha256 "4e31d35357a8b68f0e08f87e9c2551bddb6d68b764f562c48e5d692a2c8ab1a4"
+      url "https://github.com/mpyw/suve/releases/download/v0.6.3/suve_0.6.3_linux_amd64.tar.gz"
+      sha256 "b082f13149ce2fb2d41ab2ade1fafd9241dfee4334c8276c039f7d73fe91bcd4"
     end
 
     depends_on "gtk+3"
