@@ -5,10 +5,16 @@ This repository contains Homebrew formulae for mpyw tools.
 ## Installation
 
 ```bash
-brew tap mpyw/tap
-brew install suve
+brew install mpyw/tap/<formula>
+```
+
+**Example:**
+
+```bash
+brew install mpyw/tap/sql-http-proxy
 ```
 
 ## Available Formulae
 
-- **suve** - Git-like CLI for AWS Parameter Store and Secrets Manager
+- **[sql-http-proxy](https://github.com/mpyw/sql-http-proxy)** - YAML configuration-based HTTP to SQL proxy server
+- **[suve](https://github.com/mpyw/suve)** - Git-like CLI for AWS Parameter Store and Secrets Manager
