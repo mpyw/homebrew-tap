@@ -11,7 +11,7 @@ brew install mpyw/tap/<formula>
 **Example:**
 
 ```bash
-brew install mpyw/tap/sql-http-proxy
+brew install mpyw/tap/suve
 ```
 
 ## Available Formulae
