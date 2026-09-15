@@ -2,27 +2,27 @@ class SqlHttpProxy < Formula
   desc "YAML configuration-based HTTP to SQL proxy server"
   homepage "https://github.com/mpyw/sql-http-proxy"
   license "MIT"
-  version "0.1.2"
+  version "0.1.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/mpyw/sql-http-proxy/releases/download/v0.1.2/sql-http-proxy_0.1.2_darwin_arm64.tar.gz"
-      sha256 "3c224d58cec074e4621b66fe7ee50a96a8135f3b36384748811a06304bb58d46"
+      url "https://github.com/mpyw/sql-http-proxy/releases/download/v0.1.3/sql-http-proxy_0.1.3_darwin_arm64.tar.gz"
+      sha256 "63eddd041b8f91f7c189acafc4c1f2b59092eefe13e7e113cb802854f71514d7"
     end
     on_intel do
-      url "https://github.com/mpyw/sql-http-proxy/releases/download/v0.1.2/sql-http-proxy_0.1.2_darwin_amd64.tar.gz"
-      sha256 "f8d49391ca798a6891818ab1bb64044286b16f233fb19d1b66e171201994450d"
+      url "https://github.com/mpyw/sql-http-proxy/releases/download/v0.1.3/sql-http-proxy_0.1.3_darwin_amd64.tar.gz"
+      sha256 "3f13684fd6d9df17fc21c88fc96cc4e1b101f5bbc15ffb3cb842c04e26ccada2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mpyw/sql-http-proxy/releases/download/v0.1.2/sql-http-proxy_0.1.2_linux_arm64.tar.gz"
-      sha256 "0e65f8efaa475eda455ec96744ae47d95f7cf76ec7959d6bdd44ca0f2da2d409"
+      url "https://github.com/mpyw/sql-http-proxy/releases/download/v0.1.3/sql-http-proxy_0.1.3_linux_arm64.tar.gz"
+      sha256 "4c9a31432245ca27add876e10c0305acaa9c1ab6975a6dc867eab8d7306d8282"
     end
     on_intel do
-      url "https://github.com/mpyw/sql-http-proxy/releases/download/v0.1.2/sql-http-proxy_0.1.2_linux_amd64.tar.gz"
-      sha256 "8939491df452e7d4205fb3c84afe4adb9e5fd3eae8a75f94d458a76687fafdfc"
+      url "https://github.com/mpyw/sql-http-proxy/releases/download/v0.1.3/sql-http-proxy_0.1.3_linux_amd64.tar.gz"
+      sha256 "3aa471a446289176f7f3d2cf1b3ece55995fb2c7e0ea8215c794d2b0ff0164cb"
     end
   end
 
